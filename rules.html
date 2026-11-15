@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SK5SVWXJ58"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-SK5SVWXJ58');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FNOLDREC Rules</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/card-list.css">
+    <link rel="stylesheet" href="css/back-to-top.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <style>
+        .updateimg {
+        width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="header-mobile">
+        <img src="assets/close.png" class="close-img" onclick="mobile_menu_close()" alt="Zamknij">
+        <div>
+            <h2>FNOLDREC</h2>
+            <ul>
+                <li><a href="cards">Cards</a></li>
+                <li><a href="rules">Rules</a></li>
+                <li><a href="news">News</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>INFO</h2>
+            <ul>
+                <li><a href="about">About</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </div>
+        <div onclick="random_card()">
+            <h2>RANDOM CARD</h2>
+            <ul>
+                <li><img src="assets/random.png" id="random_mobile"></li>
+            </ul>
+        </div>
+    </div>
+    <main id="main">
+        <header class="header">
+            <a href="cards"><img src="assets/logo.png" id="logoimg"></a>
+            <ul>
+                <li><h2><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3227539990" id="graj" target="_blank"><i>PLAY NOW</i></a></h2></li>
+                <li><a href="cards">Cards</a></li>
+                <li><a href="news">News</a></li>
+            </ul>
+            <svg width="64" height="64" onclick="mobile_menu_open()" class="menu-button">
+                <rect width="56" height="8" x="0" y="8" fill="white" />
+                <rect width="56" height="8" x="0" y="28" fill="white" />
+                <rect width="56" height="8" x="0" y="48" fill="white" />
+            </svg>
+        </header>
+    </main>
+    <a onclick="ToTop()">
+        <img src="assets/arrow.png" class="back-to-top" id="back_to_top">
+    </a>
+    <section>
+        <article>
+            <h1>Rules & Introduction</h1>
+            <div id="syntaxdiv">
+            <p><h2>About the Game</h2></p>
+            <p>FNOLDREC is a game about assembling a team using it's members' wits and fame. In this game, you choose your operator, and using that character along with a 60-card deck, you try to defeat your opponents.</p>
+            <p><h2>Info</h2></p>
+            <p> 
+            <br>Name: FNOLDREC
+            <br>Players: 2-4
+            <br>Playtime: 1h-3h
+            <br>Age Rating: 12+
+            <br>Content Descriptions:
+            <br>- Violence
+            <br>- Fear
+            <br>- Bad language
+            <br>- Depictions of tobacco usage
+            <br>Author: Fnold
+            </p>
+            <p><h2>Before Playing</h2></p>
+            <p>To start the game, each player must have a deck prepared consisting of at least 60 cards and a selected operator. Decks may contain any cards from the game and may have up to 100 cards. However, the "50:50 rule" applies: each deck must have exactly as many actions as it has units, and vice versa. An operator can be any unit with a large text box. You can include regular units, grays, and operators in your deck, provided that the operators do not have a star in their unit types and share the same color combination as the main operator.</p>
+            <p><h2>Play</h2></p>
+            <p> 
+                Each player places their deck face down and shuffles it. Next to their deck, each player places their previosuly picked operator face up. Set each player's life to 100/100. Randomly choose the starting player.
+                Next, each player draws 7 cards. If the hand drawn is unsatisfactory, a player can pick any number of cards from their hand and draw that many new cards and then shuffle the previously picked cards back into the deck. A player can only do this once.
+                <br>
+                Each player's first turn is very important. During the first turn of the game, special rules apply. During a player's first turn, that player can't attack, doesn't draw a card at the beginning of turn, can't play their operator and can't play cards with the Attaint keyword. During your first turn you have to play a unit. The first unit played by each player is completely free.
+                <br>
+                During the turn, the active player may Busy their units, which means rotating them 90 degrees to generate as much Mana as that unit's Intelligence (the lightbulb icon in the unit's stats). A unit generates as much Fame passively as its Fame stat (the bar graph in the unit's stats). Mana and Fame are needed to play most of the cards in the game. To play a card, which includes your operator, you must meet its playing costs; if you succeed, you can play it from your hand onto the table, while simultaneously depleting each resource by the amount that the card cost (e.g., Mana, Coins, Life), except for Fame. Fame never drains. Every time you play your operator, each of it's playing costs increases by 2. If you can't afford to play any other card from your hand besides your starting unit, there's no need to worry! At the end of each turn, the player whose turn it is picks one of their units and increases a selected stat by 1. That is called Upgrading a unit. Degrading is the same but you lower a stat by 1. The turn then ends.
+                <br>Starting on the second turn and every turn thereafter, each player, at the beginning of their turn, Unbusies all of their units (returns them to an upright position), draws 1 card, may attack other players and may play their operator. Attacking involves Busying individual Unbusy units of your own during your turn. For each unit, you select an opponent to attack. Then, each opponent being attacked must choose to either block the attack or lose life equal to the sum of the strength of all units attacking that enemy (the sword icon in the unit's stats). To block an attack, the attacked player picks one of their Unbusy units and assigns it to the attacking unit. They may do this as many times as they wish; one unit can block one attacking unit. Afterward, each blocking unit loses as much health as the attacking unit's strength. If there is excess damage, the defending player loses as much life as the excess damage amount. The defending player loses as much health as the strength of the unblocked units attacking them.
+                <br>Each turn goes in compliance with the "TURN ORDER" infographic:
+                <br><img src="assets/turn.png" alt="Turn Order" class="updateimg">
+                <br>Each action has a "tempo" below it's image:
+                <br>- FLASH - Effect of this action activates instantly after playing.
+                <br>- ROZKAZ - The effect of this action doesn't take effect during the same turn it was played (unless it has the Hustle keyword), but it can be activated at any time during any future turn of the player who has the action. Actions with this timing may have charges. These allow you to use the action's effect multiple times. Charges work according to the ORDER rules. You can even use all charges in succession during a single turn. When the number of charges reaches 0, nothing happens; the card remains on the table.
+                <br>- PLAN - These actions have effects that unlock and activate each time the action described at the beginning of the card's description is performed. When played, the card is at level 0. After the final level is completed, the action goes to the graveyard.
+                <br>- TRAP - These actions are played face down, hidden from other players. The player who has this action can peek under it whenever they want. When the TRAP triggers, it's turned face up and it's effect triggers. Then it goes to the graveyard.
+                <br>Actions without a tempo are permanent and stay on the table unless someone gets rid of them.
+            </p>
+            <p><h2>Finishing the Game</h2></p>
+            <p>
+            The game ends when one player wins using cards that say they can win OR when every other player has lost the game.
+            <br>
+            <br>You win instantly when:
+            <br>- You're the only player alive
+            <br>OR
+            <br>- One of the cards says that you win the game
+            <br>
+            <br>You lose instantly when:
+            <br>- You have 0 units
+            <br>OR
+            <br>- You have 0 or less life
+            <br>OR
+            <br>- One of the cards says that you lose the game
+            <br>
+            <br>When someone wins the game, the match ends immediately. When someone loses the game, it continues until someone wins.
+            </p>
+            </div>
+        </article>
+    </section>
+    <footer>
+            <div>
+                <h3>FNOLDREC</h3>
+                <ul>
+                    <li><p><a href="cards">Cards</a></p></li>
+                    <li><p><a href="rules">Rules</a></p></li>
+                    <li><p><a href="news">News</a></p></li>
+                </ul>
+            </div>
+            <div>
+                <h3>INFO</h3>
+                <ul>
+                    <li><p><a href="about">About</a></p></li>
+                    <li><p><a href="contact">Contact</a></p></li>
+                </ul>
+            </div>
+            <div>
+                <p>™ & © 2023-<script>document.write(new Date().getFullYear())</script> The FNOLDREC project authors. All rights reserved. All audio, visual, and text content on this website (including all names, symbols, images, stories, trademarks, and logos) are protected by trademarks, copyrights, and other intellectual property rights belonging exclusively to their original authors or their subsidiaries, licensors, licensees, suppliers, and affiliates.</p>
+            </div>
+    </footer>
+    <script src="js/mobile-menu.js"></script>
+    <script src="js/back-to-top.js"></script>
+</body>
+</html>

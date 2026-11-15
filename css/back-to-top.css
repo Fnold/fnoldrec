@@ -1,0 +1,35 @@
+.back-to-top {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: calc(100vw - 95.5%) !important;
+    bottom: 11vh;
+    bottom: 100px;
+    padding: 4px;
+    opacity: 0;
+    cursor: pointer;
+    display: block;
+    transition: 0.5s;
+    z-index: 3;
+}
+
+.back-to-top:hover {
+    filter: drop-shadow(0 0 12px #fff);
+}
+
+.show {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+@media screen and (max-width:1875px) {
+    .back-to-top {
+        right: 8.5vw;
+    }
+}
+
+@media screen and (max-width: 1065px) {
+    .back-to-top {
+        display: none;
+    }
+}

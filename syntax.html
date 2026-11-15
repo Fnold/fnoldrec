@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SK5SVWXJ58"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-SK5SVWXJ58');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Syntax</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/card-list.css">
+    <link rel="stylesheet" href="css/back-to-top.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <style>
+    code {
+    background-color: rgba(255, 255, 255, 0.1);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 110%;
+    }
+    .codeA {
+    color: crimson;
+    }
+    .codeB {
+    color: turquoise;
+    }
+    .codeC {
+    color: gold;
+    }
+    .codeD{
+    color: rgb(0, 255, 0);
+    }
+    .codeE{
+    color: rgb(255, 0, 255);
+    }
+    #syntax {
+    width: 50%;
+    margin: 0 auto;
+    }
+    details {
+    padding: 20px;
+    cursor: pointer;
+    width: 75%;
+    }
+    @media screen and (max-width:925px) {
+    #syntax {
+        width: 90%;
+    }
+    }
+    @media screen and (max-width:715px) {
+    #syntax {
+    width: 85%;
+    }
+    details{
+        width: 100%;
+    }
+    }
+    @media screen and (max-width:430px) {
+    #syntax {
+    width: 90%;
+    }
+    }
+    </style>
+</head>
+<body>
+    <div id="header-mobile">
+        <img src="assets/close.png" class="close-img" onclick="mobile_menu_close()" alt="Zamknij">
+        <div>
+            <h2>FNOLDREC</h2>
+            <ul>
+                <li><a href="cards">Cards</a></li>
+                <li><a href="rules">Rules</a></li>
+                <li><a href="news">News</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>INFO</h2>
+            <ul>
+                <li><a href="about">About</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </div>
+        <div onclick="random_card()">
+            <h2>RANDOM CARD</h2>
+            <ul>
+                <li><img src="assets/random.png" id="random_mobile"></li>
+            </ul>
+        </div>
+    </div>
+    <main id="main">
+        <header class="header">
+            <a href="cards"><img src="assets/logo.png" id="logoimg"></a>
+            <ul>
+                <li><h2><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3227539990" id="graj" target="_blank"><i>PLAY NOW</i></a></h2></li>
+                <li><a href="cards">Cards</a></li>
+                <li><a href="news">News</a></li>
+            </ul>
+            <svg width="64" height="64" onclick="mobile_menu_open()" class="menu-button">
+                <rect width="56" height="8" x="0" y="8" fill="white" />
+                <rect width="56" height="8" x="0" y="28" fill="white" />
+                <rect width="56" height="8" x="0" y="48" fill="white" />
+            </svg>
+        </header>
+    </main>
+    <a onclick="ToTop()">
+        <img src="assets/arrow.png" class="back-to-top" id="back_to_top">
+    </a>
+    <section>
+        <article id="syntax">
+            <h1>Search Syntax</h1>
+            <div>
+            <p><h4>The FNOLDREC card search engine has a lot of expressions to filter out cards.</h4></p>
+            <p>In addition to the standard card names and unit stats in the X/X/X/X format, you can further refine your card search in a variety of ways.</p>
+            <p><h1>Basic expressions:</h1></p>
+            <p><h2>Searching cards by Type</h2></p>
+            <p>Cards can be searched by their type:
+            <br><code class="codeA">action</code> - Searches only Actions.
+            <br><code class="codeA">actionf</code> - Searches only Actions with the FLASH tempo.
+            <br><code class="codeA">actiono</code> - Searches only Actions with the ORDER tempo.
+            <br><code class="codeA">actionoc</code> - Searches only Actions with the ORDER tempo, which have Charges.
+            <br><code class="codeA">actionp</code> - Searches only Actions with the PLAN tempo.
+            <br><code class="codeA">actiont</code> - Searches only Actions with the TRAP tempo.
+            <br><code class="codeA">actionx</code> - Searches only Actions without a tempo.
+            <br><code class="codeA">unit</code> - Searches only Units.
+            <br><code class="codeA">unitn</code> - Searches only Units, which can't be Operators.
+            <br><code class="codeA">operator</code> - Searches only Units, which can be Operators.
+            <br><code class="codeA">operators</code> - Searches only Operators with a star.
+            <br><code class="codeA">operatorns</code> - Searches only Operators without a star.
+            <br><code class="codeA">operators</code> - Searches only Units, which are Grays.
+            <br><code class="codeA">operatorng</code> - Searches only Operators, which aren't Grays.
+            <br><code class="codeA">devotion</code> - Searches only cards with the Devotion mechanic.
+            <br><code class="codeA">domain</code> - Searches only cards with the Domain mechanic.
+            <br><code class="codeA">bid</code> - Searches only cards with the Bidding mechanic.
+            <br><code class="codeA">attaint</code> - Searches only cards with the Attaint mechanic.
+            <br><code class="codeA">revive</code> - Searches only cards with the Revive mechanic.
+            <br><code class="codeA">clash</code> - Searches only cards with the Clash mechanic.
+            <p><i>Example:</i> <code class="codeA">unit</code> Searches only Units.</p>
+            </p>
+            <p><h2>Searching cards by Color</h2></p>
+            <p>Units can be searched by their color combination:
+                <br><code class="codeB">r---</code> - Searches only red Units.
+                <br><code class="codeB">rbyg</code> - Searches only Units with all colors.
+                <br><code class="codeB">r--g</code> - Searches only red-green Units.
+                <br><code class="codeB">--y-</code> - Searches only yellow Units.
+                <br><code class="codeB">r-yg</code> - Searches only red-yellow-green Units.
+                <p><i>Example:</i> <code class="codeB">r-y-</code> Searches only Units with the red-yellow color combination.</p>
+            </p>
+            <p><h2>Searching cards by Group</h2></p>
+            <p>Each card is in a group. Groups are only used for categorization and do not resemble the update the card was added in or serve any gameplay benefits.
+            <details>
+                <summary>Group List</summary>
+                CMF - Canteen Mischief<br>
+                FDR - <a href="https://fnold.github.io/fnoldrenaline" style="text-decoration: underline;">FNOLDRENALINE</a><br>
+                FRC - FNOLDREC<br>
+                HAL - Hal1<br>
+                PRM - Promo System<br>
+                SEA - Sold Sea
+            </details>
+                <p><i>Example:</i> <code class="codeC">fdr</code> Searches only cards in the FNOLDRENALINE group.</p>
+            </p>
+            <p><h2>Searching cards by Update</h2></p>
+            <p>Cards can be searched by the update they were added in:
+                <br><code class="codeD">v1</code> - Searches only cards added in the V1 version. (2026).
+                <p><i>Example:</i> <code class="codeD">v1</code> Searches only cards added in the V1 version. (2026).</p>
+            </p>
+            <p><h2>Searching cards by Artist</h2></p>
+            <p>Cards can be searched by the artist who drew the art:
+            <details>
+                <summary>Artist List</summary>
+                Fnold<br>
+                Krafcik<br>
+                Maksiuu
+            </details>
+                <p><i>Example:</i> <code class="codeE">fnold</code> Searches only cards illustrated by the artist Fnold.</p>
+            </p>
+            </div>
+        </article>
+    </section>
+    <footer>
+            <div>
+                <h3>FNOLDREC</h3>
+                <ul>
+                    <li><p><a href="cards">Cards</a></p></li>
+                    <li><p><a href="rules">Rules</a></p></li>
+                    <li><p><a href="news">News</a></p></li>
+                </ul>
+            </div>
+            <div>
+                <h3>INFO</h3>
+                <ul>
+                    <li><p><a href="about">About</a></p></li>
+                    <li><p><a href="contact">Contact</a></p></li>
+                </ul>
+            </div>
+            <div>
+                <p>™ & © 2023-<script>document.write(new Date().getFullYear())</script> The FNOLDREC project authors. All rights reserved. All audio, visual, and text content on this website (including all names, symbols, images, stories, trademarks, and logos) are protected by trademarks, copyrights, and other intellectual property rights belonging exclusively to their original authors or their subsidiaries, licensors, licensees, suppliers, and affiliates.</p>
+            </div>
+    </footer>
+    <script src="js/mobile-menu.js"></script>
+    <script src="js/back-to-top.js"></script>
+</body>
+</html>
