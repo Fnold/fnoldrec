@@ -13,7 +13,7 @@ function latest() {
         </p>`;
     const card_flavor = `
         <i>
-        Like the old times
+        Like the bad, old times.
         </i>`;
     const card_author = `
         <i>
