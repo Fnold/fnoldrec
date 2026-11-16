@@ -1,5 +1,5 @@
 function latest() {
-    const card_title = "Missing Dzeedian's Rescue";
+    const card_title = "Missing Dzeedians' Rescue";
     const site_title = card_title;
     const card_cost = "8M";
     const card_cost_info = "8 Mana";
