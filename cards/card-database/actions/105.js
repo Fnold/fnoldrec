@@ -10,7 +10,7 @@ function latest() {
         </p>`;
     const card_flavor = `
         <i>
-        Existance is overrated.
+        Existence is overrated.
         <i>`;
     const card_author = `
         <i>
