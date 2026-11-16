@@ -6,7 +6,7 @@ function latest() {
     const card_type = "Action - FLASH";
     const card_description = `
         <p>
-        Choose a unit.
+        Choose a unit and its two different stats.
         </p>
         <p>
         The value of the chosen unit's first stat gets set to the value of the second one.
