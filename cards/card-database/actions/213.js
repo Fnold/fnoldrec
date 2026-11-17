@@ -1,5 +1,5 @@
 function latest() {
-    const card_title = "Treasures untold";
+    const card_title = "Treasures Untold";
     const site_title = card_title;
     const card_cost = "15M";
     const card_cost_info = "15 Mana";
