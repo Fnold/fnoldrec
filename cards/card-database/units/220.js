@@ -1,5 +1,5 @@
 function latest() {
-    const card_title = "Serutus's Pawn";
+    const card_title = "Serutus's Brute";
     const site_title = card_title;
     const card_cost = "3U 8M 10F";
     const card_cost_info = "≥3 Units in service, 8 Mana and 10 Fame";
