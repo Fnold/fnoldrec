@@ -12,6 +12,10 @@ function latest() {
         <p><b>ENTRY</b>: <b>Sacrifice</b> another unit. Draw 1 card.</p>
         <br>
         <p>Whenever a card gets <b>Sacrificed</b>, this unit gains 1 counter and gets <b>Upgraded</b>. When this unit dies, each opponent loses X life, you draw X cards and each allied unit gets <b>Upgraded</b> X times, where X is the number of counters on this unit.</p>`;
+    const card_flavor = `
+        <i>
+        A lack of depth perception can often be catastrophic.
+        </i>`;
     const card_stats = `
         <p>
         4/4/4/2
@@ -28,6 +32,7 @@ function latest() {
     document.getElementById("card_subtype").innerHTML = card_subtype;
     document.getElementById("card_description").innerHTML = card_description;
     document.getElementById("card_stats").innerHTML = card_stats;
+    document.getElementById("card_flavor").innerHTML = card_flavor;
     document.getElementById("card_author").innerHTML = card_author;
     document.getElementById("card_image").src = "../../assets/cards/latest/units/48.webp";
     document.getElementById("card_image").alt = card_title;
