@@ -11,6 +11,10 @@ function latest() {
         <p>
         Whenever the chosen unit blocks an attack, the attacking unit dies at end of combat.
         </p>`;
+    const card_flavor = `
+        <i>
+        And they said that wearing armor is admitting that you can be hit.
+        <i>`;
     const card_author = `
         <i>
         Illustration: Fnold 2023
@@ -21,6 +25,7 @@ function latest() {
     document.getElementById("card_cost_info").title = card_cost_info;
     document.getElementById("card_type").innerHTML = card_type;
     document.getElementById("card_description").innerHTML = card_description;
+    document.getElementById("card_flavor").innerHTML = card_flavor;
     document.getElementById("card_author").innerHTML = card_author;
     document.getElementById("card_image").src = "../../assets/cards/latest/actions/8.webp";
     document.getElementById("card_image").alt = card_title;

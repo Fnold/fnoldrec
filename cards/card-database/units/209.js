@@ -16,7 +16,7 @@ function latest() {
         </p>`;
     const card_flavor = `
         <i>
-        "Wearing armor is admitting that you can be hit."
+        No destiny. No hope. How will today's story of Desperaddie turn out?
         </i>`;
     const card_author = `
         <i>
