@@ -11,8 +11,7 @@ function latest() {
         <p>
         Choose a random unit.
         </p>
-        <p>
-        At the start of your turn, you draw an additional 1 card. When the chosen unit stops being in service, <b>Retire</b> this action, the chosen unit, your graveyard and your hand.
+        At the start of your turn, if the chosen unit is in service, you draw an additional 1 card. When the chosen unit stops being in service, this action, the chosen unit, your graveyard and your hand get <b>Retired</b>.
         </p>`;
     const card_flavor = `
         <i>
