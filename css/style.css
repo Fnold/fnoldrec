@@ -79,7 +79,7 @@ header ul a:hover::before {
     transform: scaleX(1);
 }
 
-#graj i {
+#play i {
     background: rgb(255, 200, 0);
     background-clip: text;
     -webkit-background-clip: text;
@@ -88,7 +88,7 @@ header ul a:hover::before {
     padding-right: 1vw;
 }
 
-#graj::before {
+#play::before {
     background-color: rgb(255, 216, 0) !important;
 }
 
@@ -160,9 +160,13 @@ header ul a:hover::before {
 }
 
 .menu-button {
-    box-sizing: content-box;
     display: none;
-    padding-right: 4px;
+    box-sizing: border-box;
+    width: 64px;
+    height: 64px;
+    flex: 0 0 64px;
+    padding-right: 16px;
+    overflow: hidden;
 }
 
 section {
@@ -250,9 +254,6 @@ footer ul li a:hover {
     }
     footer div {
         width: 100%;
-    }
-    header {
-        height: 6%;
     }
     #logoimg {
         height: 70px;

@@ -125,6 +125,11 @@ input {
     transition: 0.1s;
 }
 
+.cards img:active {
+    filter: brightness(125%);
+    transform: scale(0.95);
+}
+
 @keyframes fade_in {
     0% {
       opacity: 0;
