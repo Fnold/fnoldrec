@@ -215,6 +215,8 @@ div p {
         width: 95%;
     }
     .card-info {
+        width: 100%;
+        min-width: 0;
         resize: none;
         margin-top: 0px;
         margin-bottom: 16px;
@@ -226,6 +228,8 @@ div p {
         width: 100%;
     }
     #charts {
+        width: 100%;
+        min-width: 0;
         padding-bottom: 16px;
     }
     article img {
@@ -233,5 +237,8 @@ div p {
     }
     div p {
         font-size: 4vw;
+    }
+    nav img {
+        margin: -16px;
     }
 }

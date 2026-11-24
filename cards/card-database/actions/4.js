@@ -33,8 +33,6 @@ function latest() {
     document.getElementById("card_image").src = "../../assets/cards/latest/actions/4.webp";
     document.getElementById("card_image").alt = card_title;
     document.getElementById("latest_selector").innerHTML = `&gt;<u>Latest</u>`;
-    document.getElementById("v1_1_0_selector").innerHTML = `<u>v1.1.0</u>`
-    
 }
 document.addEventListener("DOMContentLoaded", latest);
 

@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", latest);
     new Chart(ctxI, {
         type: 'line',
         data: {
-        labels: [['1.3.0'], ['1.4.0']],
+        labels: ['V1','V2'],
         datasets: [{
             label: 'Inclusion',
             data: [(eval(`v1ActionCard${card_id}Inclusion`))],
