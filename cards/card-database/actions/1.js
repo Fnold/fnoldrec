@@ -14,7 +14,7 @@ function latest() {
     const card_flavor = `
         <i>
         "Don't smile!"
-        <i>`;
+        </i>`;
     const card_author = `
         <i>
         Illustration: Fnold 2024

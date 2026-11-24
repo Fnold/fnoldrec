@@ -157,7 +157,8 @@ input {
         margin-bottom: 18px;
     }
     input{
-        margin: 20px 20px;
+        width: 100%;
+        margin-left: 20px;
     }
     #syntax {
         width: 90%;
