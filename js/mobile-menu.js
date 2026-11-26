@@ -5,6 +5,9 @@ function animateElement(element, keyframes, options) {
 }
 
 async function mobile_menu_open() {
+    document.querySelector('article').style.filter = "brightness(75%)";
+    document.querySelector('footer').style.filter = "brightness(75%)";
+    document.querySelector('#logoimg').style.filter = "brightness(75%)";
     document.querySelector('.menu-button').style.display = "none";
     document.getElementById('header-mobile').style.display = "block";
     await animateElement(document.getElementById('header-mobile'),[
@@ -19,11 +22,14 @@ async function mobile_menu_open() {
     ],  {
         easing: 'ease-out',
         fill: 'forwards',
-        duration: 150,
+        duration: 128,
     });
 }
 
 async function mobile_menu_close() {
+    document.querySelector('article').style.filter = "brightness(100%)";
+    document.querySelector('footer').style.filter = "brightness(100%)";
+    document.querySelector('#logoimg').style.filter = "brightness(100%)";
     await animateElement(document.getElementById('header-mobile'),[
         {
             opacity: '1',
@@ -36,7 +42,7 @@ async function mobile_menu_close() {
     ],  {
         easing: 'ease-in',
         fill: 'forwards',
-        duration: 95
+        duration: 96
     });
     setTimeout(() => {
         document.querySelector('.menu-button').style.display = "block";
