@@ -6,7 +6,7 @@ function latest() {
     const card_type = "Action";
     const card_description = `
         <p>
-        If a player would draw a card, they reveal the top card of their deck instead. Then any other player may pay 6 life. If a player does, that card gets moved to the bottom of it's original owner's deck. Otherwise, the top card of that player's deck gets moved to their hand.
+        If a player would draw a card, they reveal the top card of their deck instead. Then any other player may pay 6 life. If a player does, that card gets moved to the bottom of its original owner's deck. Otherwise, the top card of that player's deck gets moved to their hand.
         </p>`;
     const card_author = `
         <i>

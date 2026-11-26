@@ -12,7 +12,7 @@ function latest() {
         Choose a unit.
         </p>
         <p>
-        The chosen unit gets moved to it's owner's hand.
+        The chosen unit gets moved to its owner's hand.
         </p>`;
     const card_author = `
         <i>

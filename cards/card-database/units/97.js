@@ -11,7 +11,7 @@ function latest() {
     const card_description = `
         <p><b>ENTRY</b>: Each opponent <b>Discards</b> 1 card.</p>
         <br>
-        <p>Whenever this unit <b>Changes Sides</b> or dies, it's original owner <b>Upgrades</b> a unit.</p>`;
+        <p>Whenever this unit <b>Changes Sides</b> or dies, its original owner <b>Upgrades</b> a unit.</p>`;
     const card_stats = `
         <p>
         8/0/10/1

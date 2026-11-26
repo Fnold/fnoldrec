@@ -9,10 +9,10 @@ function latest() {
         Choose a unit.
         </p>
         <p>
-        The chosen unit's health is set to it's base value.
+        The chosen unit's health is set to its base value.
         </p>
         <p>
-        <b>Devotion(G)</b>: The chosen unit's health is set to it's base value. If it's an allied unit and it's health was raised this way, it gets <b>Upgraded</b> 3 times.
+        <b>Devotion(G)</b>: The chosen unit's health is set to its base value. If it's an allied unit and it's health was raised this way, it gets <b>Upgraded</b> 3 times.
         </p>`;
     const card_flavor = `
         <i>

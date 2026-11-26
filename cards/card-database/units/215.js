@@ -9,7 +9,7 @@ function latest() {
         Gray
         </p>`;
     const card_description = `
-        <p><b>ENTRY</b>: Choose an allied card.<br>You may move the chosen card to it's original owner's graveyard or hand.</p>
+        <p><b>ENTRY</b>: Choose an allied card.<br>You may move the chosen card to its original owner's graveyard or hand.</p>
         <br>
         <p>At the start of your turn, <b>Discard</b> 1 card and <b>Sacrifice</b> a unit other than this unit. If you have no cards in hand or no other units, instead <b>Bury</b> 3 cards and search your deck for a card, reveal it, move it into your hand, then shuffle your deck.</p>`;
     const card_stats = `

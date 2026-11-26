@@ -9,7 +9,7 @@ function latest() {
         Choose an enemy unit.
         </p>
         <p>
-        The chosen unit gets -0/&NoBreak;-0/&NoBreak;-0/&NoBreak;-5. If the chosen unit dies this way, it gets moved to it's original owner's hand.
+        The chosen unit gets -0/&NoBreak;-0/&NoBreak;-0/&NoBreak;-5. If the chosen unit dies this way, it gets moved to its original owner's hand.
         </p>`;
     const card_author = `
         <i>
